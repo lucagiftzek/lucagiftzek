@@ -78,18 +78,13 @@ Also: **[Kaeros](https://kaeros.app)**, career and job-search tools built on the
 | [dsh-subagent-tiering](https://github.com/lucagiftzek/dsh-subagent-tiering) | Subagents default to a cheaper sibling of the parent model unless the agent names a route |
 | [dsh-fs-reobserve](https://github.com/lucagiftzek/dsh-fs-reobserve) | Ends self-inflicted stale-file errors after an agent's own shell commands |
 | [dsh-request-image-cap](https://github.com/lucagiftzek/dsh-request-image-cap) | Clamps every image sent to the model to a pixel cap, fixing many-image request errors |
+| [dsh-phone](https://github.com/lucagiftzek/dsh-phone) | SMS and calls (Twilio, SIP via Asterisk) with call audio through your own server, live voicemail and Telegram |
+| [dsh-seal](https://github.com/lucagiftzek/dsh-seal) | An encrypted channel in front of DSH: a Go reverse proxy plus a service worker that seal all DSH browser traffic |
+| [dsh-voice](https://github.com/lucagiftzek/dsh-voice) | Read-aloud, dictation and language-aware speech with 23 TTS and STT providers, per-language routing and word highlighting |
+| [dsh-orchestrator](https://github.com/lucagiftzek/dsh-orchestrator) | Agent swarm and task orchestration: an Orchestrate tab, `orch_*` tools, runners, provider cards and a machine API |
+| [dsh-workspace-rail](https://github.com/lucagiftzek/dsh-workspace-rail) | A workspace-first sidebar rail: pinned chats, projects as folders, live Recents, search and unread markers |
 
-Install any of them with `dsh plugin add github:lucagiftzek/<plugin>`.
-
-**Coming soon** (running in my own setup, being prepared for release):
-
-| Plugin | What it does |
-|:---|:---|
-| **dsh-phone** | Phone, SMS and Telegram in the DSH sidebar: calls with audio through your own server, live voicemail with pick up, voice message transcription, agent tools |
-| **dsh-seal** | Encrypts all DSH browser traffic again inside HTTPS, end to end to your own server, and fetches outside resources server-side |
-| **dsh-voice** | Read-aloud, dictation and a sidebar reader with several voice providers and automatic language detection |
-| **dsh-orchestrator** | Spawn, steer and track agent chats, shell runners and scrapes from one place |
-| **dsh-workspace-rail** | A workspace rail for chats: pinned, recents and projects, unread markers and a live browser tab title |
+Install any of them with `dsh plugin add github:lucagiftzek/<plugin>` (dsh-seal is a standalone Go service: see its README).
 
 ## 🎓 Education
 
