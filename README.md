@@ -84,7 +84,7 @@ Also: **[Kaeros](https://kaeros.app)**, career and job-search tools built on the
 | [dsh-orchestrator](https://github.com/lucagiftzek/dsh-orchestrator) | Agent swarm and task orchestration: an Orchestrate tab, `orch_*` tools, runners, provider cards and a machine API |
 | [dsh-workspace-rail](https://github.com/lucagiftzek/dsh-workspace-rail) | A workspace-first sidebar rail: pinned chats, projects as folders, live Recents, search and unread markers |
 
-Install any of them with `dsh plugin add github:lucagiftzek/<plugin>` (dsh-seal is a standalone Go service: see its README).
+Install any of them from npm with `dsh plugin add @lucagiftzek/<plugin>` (Idle Watchdog: `dsh plugin add dsh-idle-watchdog`), or from GitHub with `dsh plugin add github:lucagiftzek/<plugin>` (dsh-seal is a standalone Go service: see its README).
 
 ## 🎓 Education
 
