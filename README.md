@@ -46,6 +46,7 @@ Fine-tuned for one job: turning messy job postings into clean, verifiable fields
 | **JOA Small** | IBM Granite 4.2 3B | [v1](https://huggingface.co/JobOpportunitiesAPI/joa-small) · [v2](https://huggingface.co/JobOpportunitiesAPI/joa-small-v2) |
 | **JOA Advance** | IBM Granite 3.3 8B Instruct | [v1](https://huggingface.co/JobOpportunitiesAPI/joa-advance) · [v2](https://huggingface.co/JobOpportunitiesAPI/joa-advance-v2) |
 | **JOA Deep** | Qwen3.8 27B | [v1](https://huggingface.co/JobOpportunitiesAPI/joa-deep) · [v2](https://huggingface.co/JobOpportunitiesAPI/joa-deep-v2) |
+| **JOA Extractor 400M** (GGUF, runs on a laptop GPU or CPU) | IBM Granite 3.1 1B-A400M | [Q4_K_M, Q8_0, f16](https://huggingface.co/JobOpportunitiesAPI/joa-job-extractor-400m-gguf) |
 
 Datasets: [JOA job market 2026-09](https://huggingface.co/datasets/JobOpportunitiesAPI/joa-job-market-2026-09) · [JOA extraction arena](https://huggingface.co/datasets/JobOpportunitiesAPI/joa-extraction-arena) · [Employer-direct job postings 2026-10](https://huggingface.co/datasets/JobOpportunitiesAPI/joa-employer-direct-job-postings-2026-10)
 
