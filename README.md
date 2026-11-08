@@ -71,6 +71,7 @@ Also: **[Kaeros](https://kaeros.app)**, career and job-search tools built on the
 
 | Plugin | What it does |
 |:---|:---|
+| [dsh-conductor](https://github.com/lucagiftzek/dsh-conductor) | Keeps long chats cheap and under control: fresh context in the same chat, rewind to any prompt (chat and files), automatic compaction and recovery after failed turns |
 | [dsh-artifacts](https://github.com/lucagiftzek/dsh-artifacts) | An Artifacts tab that lists the files an agent produced and previews them in place, plus a template library agents can use and extend |
 | [dsh-mail](https://github.com/lucagiftzek/dsh-mail) | Mail client and agent mail tools: IMAP, POP3, SMTP and OAuth2 accounts, scheduled and bulk sends with unsubscribe handling |
 | [dsh-note-keeper](https://github.com/lucagiftzek/dsh-note-keeper) | Obsidian-compatible Markdown notes in the sidebar with search, graph, audio notes and transcription, OCR and client-side encryption |
@@ -82,7 +83,7 @@ Also: **[Kaeros](https://kaeros.app)**, career and job-search tools built on the
 | [dsh-phone](https://github.com/lucagiftzek/dsh-phone) | SMS and calls (Twilio, SIP via Asterisk) with call audio through your own server, live voicemail and Telegram |
 | [dsh-seal](https://github.com/lucagiftzek/dsh-seal) | An encrypted channel in front of DSH: a Go reverse proxy plus a service worker that seal all DSH browser traffic |
 | [dsh-voice](https://github.com/lucagiftzek/dsh-voice) | Read-aloud, dictation and language-aware speech with 23 TTS and STT providers, per-language routing and word highlighting |
-| [dsh-orchestrator](https://github.com/lucagiftzek/dsh-orchestrator) | Agent swarm and task orchestration: an Orchestrate tab, `orch_*` tools, runners, provider cards and a machine API |
+| [dsh-orchestrator](https://github.com/lucagiftzek/dsh-orchestrator) | Agent swarm and task orchestration: an Orchestrate tab, `orch_*` tools, runners, provider cards and a machine API (also part of dsh-conductor) |
 | [dsh-workspace-rail](https://github.com/lucagiftzek/dsh-workspace-rail) | A workspace-first sidebar rail: pinned chats, projects as folders, live Recents, search and unread markers |
 
 Install any of them from npm with `dsh plugin add @lucagiftzek/<plugin>` (Idle Watchdog: `dsh plugin add dsh-idle-watchdog`), or from GitHub with `dsh plugin add github:lucagiftzek/<plugin>` (dsh-seal is a standalone Go service: see its README).
